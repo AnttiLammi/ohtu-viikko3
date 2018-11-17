@@ -63,10 +63,10 @@ set CMD_LINE_ARGS=%*
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\Kurssistatistiikka.jar;%APP_HOME%\lib\fluent-hc-4.5.6.jar;%APP_HOME%\lib\gson-2.8.5.jar;%APP_HOME%\lib\httpclient-4.5.6.jar;%APP_HOME%\lib\commons-logging-1.2.jar;%APP_HOME%\lib\httpcore-4.4.10.jar;%APP_HOME%\lib\commons-codec-1.10.jar
+set CLASSPATH=%APP_HOME%\lib\Kurssistatistiikka-all.jar
 
 @rem Execute Kurssistatistiikka
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %KURSSISTATISTIIKKA_OPTS%  -classpath "%CLASSPATH%" ohtu.Main %CMD_LINE_ARGS%
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %KURSSISTATISTIIKKA_OPTS%  -jar "%CLASSPATH%" %CMD_LINE_ARGS%
 
 :end
 @rem End local scope for the variables with windows NT shell
