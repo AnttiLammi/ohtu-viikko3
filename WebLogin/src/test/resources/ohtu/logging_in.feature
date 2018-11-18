@@ -10,7 +10,7 @@ Given login is selected
 When correct username "jukka" and incorrect password "wrong" are given
 Then user is not logged in and error message is given
 
-#Scenario: user can not login with nonexistant username
-#Given login is selected
-#When incorrect username "ananasmestari" and password "nothere" are given
-#Then user is not logged in and error message is given
+Scenario: nonexistant user can not login to
+Given login is selected
+When incorrect username "ananasmestari" and password "nothere" are given
+Then user is not logged in and error message is given
