@@ -30,7 +30,7 @@ public class App {
             if (command.isEmpty()) {
                 break;
             }
-
+            
             if (command.equals("new")) {
                 String[] usernameAndPasword = ask();
                 if (auth.createUser(usernameAndPasword[0], usernameAndPasword[1])) {
