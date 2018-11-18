@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Scenario: can login successfully with generated account" tests="6" skipped="0" failures="0" errors="0" timestamp="2018-11-18T13:20:11" hostname="lx7-fuxi219" time="0.001">
+<testsuite name="Scenario: can login successfully with generated account" tests="6" skipped="0" failures="0" errors="0" timestamp="2018-11-18T13:30:44" hostname="lx7-fuxi219" time="0.002">
   <properties/>
   <testcase name="Given command new user is selected" classname="Scenario: can login successfully with generated account" time="0.0"/>
-  <testcase name="When username &quot;eero&quot; and password &quot;salainen1&quot; are entered" classname="Scenario: can login successfully with generated account" time="0.0"/>
+  <testcase name="When username &quot;eero&quot; and password &quot;salainen1&quot; are entered" classname="Scenario: can login successfully with generated account" time="0.001"/>
   <testcase name="And command login is selected" classname="Scenario: can login successfully with generated account" time="0.0"/>
   <testcase name="And username &quot;eero&quot; and password &quot;salainen1&quot; are entered" classname="Scenario: can login successfully with generated account" time="0.0"/>
   <testcase name="Then system will respond with &quot;logged in&quot;" classname="Scenario: can login successfully with generated account" time="0.0"/>
-  <testcase name="classMethod" classname="Scenario: can login successfully with generated account" time="0.002"/>
+  <testcase name="classMethod" classname="Scenario: can login successfully with generated account" time="0.003"/>
   <system-out><![CDATA[
   Scenario: creation fails with valid username and password long enough but consisting only of letters ?[90m# ohtu/new_user.feature:24?[0m
     ?[32mGiven ?[0m?[32mcommand new user is selected?[0m                                                                 ?[90m# Stepdefs.command_new_user_is_selected()?[0m

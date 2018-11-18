@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Scenario: nonexistant user can not login to" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-11-18T13:20:11" hostname="lx7-fuxi219" time="0.001">
+<testsuite name="Scenario: nonexistant user can not login to" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-11-18T13:30:44" hostname="lx7-fuxi219" time="0.001">
   <properties/>
   <testcase name="Given command login is selected" classname="Scenario: nonexistant user can not login to" time="0.0"/>
   <testcase name="When username &quot;akkep&quot; and password &quot;akkep&quot; are entered" classname="Scenario: nonexistant user can not login to" time="0.0"/>
